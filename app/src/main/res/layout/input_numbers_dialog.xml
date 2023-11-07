@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/numberXEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X (in meters) ="
+        android:inputType="numberSigned|numberDecimal"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/numberYEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Y (in meters) ="
+        android:inputType="numberSigned|numberDecimal"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/numberZEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Z (in meters) ="
+        android:inputType="numberSigned|numberDecimal"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_button"
+        android:text="Create Child"
+        android:textSize="15dp" />
+
+</LinearLayout>

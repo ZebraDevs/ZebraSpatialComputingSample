@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ZebraSpatialComputingSample</string>
+    <string name="activity_intent_filter_action">com.zebra.spatialcomputingsample</string>
+    <string name="datawedge_profile_name">spatialcomputingsample</string>
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+    <string name="datawedge_intent_key_source_legacy">com.motorolasolutions.emdk.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type_legacy">com.motorolasolutions.emdk.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data_legacy">com.motorolasolutions.emdk.datawedge.data_string</string>
+
+    <string name="instruction_0">Tap Screen to Place AR Banner</string>
+    <string name="instruction_1">Wait till a Plane \n is Found</string>
+    <string name="instruction_2">Scan Section QR Code\n Using Imager</string>
+    <string name="instruction_3">Scan Product Barcodes\n Using Imager</string>
+    <string name="instruction_4">Unable to create Banner \n Wait for Plane</string>
+    <string name="save_location">Save\nLocations</string>
+    <string name="basic_arcore">Basic AR Playground</string>
+    <string name="generate_planogram">Generate Planogram</string>
+    <string name="restore_planogram">Restore Planogram</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
